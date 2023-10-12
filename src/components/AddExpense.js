@@ -23,3 +23,16 @@ const AddExpenseForm = () => {
                         id='cost'
                     />
                 </div>
+                </div>
+            <div className='row mt-3'>
+                <div className='col-sm'>
+                    <button type='submit' className='btn btn-primary'>
+                        Save
+                    </button>
+                </div>
+            </div>
+        </form>
+    );
+};
+
+export default AddExpenseForm;
